@@ -21,7 +21,7 @@ public:
     void gotMessage(ofMessage msg);
     
     ofxSVG svg;
-    float step;
-    vector<ofPolyline> outlines;
+    ofImage image;
     
+    float step;
 };
